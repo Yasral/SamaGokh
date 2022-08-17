@@ -14,8 +14,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+// Route::get('/', function () {
+
+//     Debugbar::info('Yes guys!');
+//     return view('welcome');
+// });
+
+Route::get('/', function(){
 
     Debugbar::info('Yes guys!');
-    return view('welcome');
+
+    return view('default.home');
+
 });
