@@ -10,6 +10,8 @@
     <body>
 
         <x-partials.nav/>
+
+        <x-partials.hero/>
         
         {{-- This gonna be the main content area --}}
 
