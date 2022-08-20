@@ -63,7 +63,8 @@
       </div>
     </div>
     <div class="bg-primaryColor">
-      <div class="container px-5 py-6 mx-auto flex justify-evenly items-center sm:flex-row flex-col">
+
+      <div class="container px-5 py-2 mx-auto flex justify-evenly items-center sm:flex-row flex-col">
 
         {{-- Insertion du logo --}}
 
