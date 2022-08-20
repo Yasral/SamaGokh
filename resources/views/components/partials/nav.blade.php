@@ -1,5 +1,5 @@
 <nav class="bg-primaryColor px-2 md:px-4 py-2.5">
-    <div class="flex flex-wrap justify-between items-center mx-auto">
+    <div class="flex flex-wrap justify-between items-center mx-auto md:container">
 
         <a href="https://flowbite.com" class="flex items-center">
             <img src="{{ asset('images/SamaGokh.svg') }}" class="mr-1 h-6 sm:h-9" alt="SamaGokh Logo">
