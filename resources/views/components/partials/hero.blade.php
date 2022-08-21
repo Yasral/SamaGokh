@@ -26,8 +26,8 @@
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
                         
                     </div>
-                    <input type="search" id="search" class="block p-4 pl-10 w-full text-lg text-gray-900 rounded-lg border border-grayFooter focus:ring-blue-500 focus:border-blue-500" placeholder="Rejoignez nous" required="">
-                    <button type="submit" class="text-white absolute right-2.5 bottom-2.5 bg-green-600 hover:bg-secondaryColor focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-lg px-4 py-2">Allons Y</button>
+                    <input type="search" id="search" class="block p-4 pl-10 w-full text-gray-900 rounded-lg border border-grayFooter focus:ring-blue-500 focus:border-blue-500 msm:text-sm md:text-lg" placeholder="Rejoignez nous" required="">
+                    <button type="submit" class="text-white absolute right-2.5 bottom-2.5 bg-green-600 hover:bg-secondaryColor focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg msm:text-sm md:text-lg px-4 py-2">Allons Y</button>
                 </div>
 
             </form>
