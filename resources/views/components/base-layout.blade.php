@@ -12,6 +12,8 @@
         <x-partials.nav/>
 
         <x-partials.hero/>
+
+        <x-partials.socialProof/>
         
         {{-- This gonna be the main content area --}}
 
