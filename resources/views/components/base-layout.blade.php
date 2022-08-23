@@ -16,6 +16,8 @@
         <x-partials.socialProof/>
 
         <x-news-card/>
+
+        <x-event-timeline/>
         
         {{-- This gonna be the main content area --}}
 
