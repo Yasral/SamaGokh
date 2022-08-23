@@ -14,6 +14,8 @@
         <x-partials.hero/>
 
         <x-partials.socialProof/>
+
+        <x-news-card/>
         
         {{-- This gonna be the main content area --}}
 
