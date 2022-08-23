@@ -29,24 +29,20 @@
                             <ul class="space-y-4">
                                 <li>
                                     <a href="#" class="text-gray-500 hover:text-secondaryColor">
-                                        Blog
+                                        Maire
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#" class="text-gray-500 hover:text-secondaryColor">
-                                        Newsletter
+                                        Conseil Municipal
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#" class="text-gray-500 hover:text-secondaryColor">
-                                        Playground
+                                        Finances
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="#" class="text-gray-500 hover:text-secondaryColor">
-                                        License
-                                    </a>
-                                </li>
+                            
                             </ul>
                         </div>
                         
@@ -54,33 +50,33 @@
                 </li>
                 <li class="lg:text-base">
 
-                    <button id="mega-menu-dropdown-button" data-dropdown-toggle="mega-menu-dropdown" class="flex justify-between items-center py-2 pr-4 pl-3 w-full font-medium text-black hover:bg-gray-50 lg:w-auto lg:hover:bg-transparent lg:border-0 lg:p-0">
-                        Ville <svg aria-hidden="true" class="ml-1 w-5 h-5 md:w-4 md:h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    <button id="mega-menu-dropdown-button" data-dropdown-toggle="mega-menu-commune" class="flex justify-between items-center py-2 pr-4 pl-3 w-full font-medium text-black hover:bg-gray-50 lg:w-auto lg:hover:bg-transparent lg:border-0 lg:p-0">
+                        Commune <svg aria-hidden="true" class="ml-1 w-5 h-5 md:w-4 md:h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                     </button>
-                    <div id="mega-menu-dropdown" class="hidden grid absolute z-10 grid-cols-2 w-auto text-sm bg-white rounded-lg border border-gray-100 shadow-md dark:border-gray-700 md:grid-cols-3 dark:bg-gray-700 block" style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate(143px, 70px);" data-popper-reference-hidden="" data-popper-escaped="" data-popper-placement="bottom">
+                    <div id="mega-menu-commune" class="hidden grid absolute z-10 grid-cols-2 w-auto text-sm bg-white rounded-lg border border-gray-100 shadow-md dark:border-gray-700 md:grid-cols-3 dark:bg-gray-700 block" style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate(143px, 70px);" data-popper-reference-hidden="" data-popper-escaped="" data-popper-placement="bottom">
                         
                         <div class="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
                             <ul class="space-y-4">
                                 <li>
                                     <a href="#" class="text-gray-500 hover:text-secondaryColor">
-                                        Blog
+                                        Histoire
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#" class="text-gray-500 hover:text-secondaryColor">
-                                        Newsletter
+                                        Quartiers
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#" class="text-gray-500 hover:text-secondaryColor">
-                                        Playground
+                                        Organisation Administrative
                                     </a>
                                 </li>
-                                <li>
+                                {{-- <li>
                                     <a href="#" class="text-gray-500 hover:text-secondaryColor">
                                         License
                                     </a>
-                                </li>
+                                </li> --}}
                             </ul>
                         </div>
                         
@@ -90,31 +86,36 @@
                     <a href="#" class="block py-2 pr-4 pl-3 text-black hover:bg-gray-50 lg:hover:bg-transparent">Actualites</a>
                 </li>
                 <li class="lg:text-base">
-                    <button id="mega-menu-dropdown-button" data-dropdown-toggle="mega-menu-dropdown" class="flex justify-between items-center py-2 pr-4 pl-3 w-full font-medium text-black hover:bg-gray-50 lg:w-auto lg:hover:bg-transparent lg:border-0 lg:p-0">
+                    <button id="mega-menu-dropdown-button" data-dropdown-toggle="mega-menu-demarche" class="flex justify-between items-center py-2 pr-4 pl-3 w-full font-medium text-black hover:bg-gray-50 lg:w-auto lg:hover:bg-transparent lg:border-0 lg:p-0">
                         Demarches <svg aria-hidden="true" class="ml-1 w-5 h-5 md:w-4 md:h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                     </button>
-                    <div id="mega-menu-dropdown" class="hidden grid absolute z-10 grid-cols-2 w-auto text-sm bg-white rounded-lg border border-gray-100 shadow-md dark:border-gray-700 md:grid-cols-3 dark:bg-gray-700 block" style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate(143px, 70px);" data-popper-reference-hidden="" data-popper-escaped="" data-popper-placement="bottom">
+                    <div id="mega-menu-demarche" class="hidden grid absolute z-10 grid-cols-2 w-auto text-sm bg-white rounded-lg border border-gray-100 shadow-md dark:border-gray-700 md:grid-cols-3 dark:bg-gray-700 block" style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate(143px, 70px);" data-popper-reference-hidden="" data-popper-escaped="" data-popper-placement="bottom">
                         
                         <div class="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
                             <ul class="space-y-4">
                                 <li>
                                     <a href="#" class="text-gray-500 hover:text-secondaryColor">
-                                        Blog
+                                        Certificat De Mariage
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#" class="text-gray-500 hover:text-secondaryColor">
-                                        Newsletter
+                                        Certificat De Vie Collective
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#" class="text-gray-500 hover:text-secondaryColor">
-                                        Playground
+                                        Bulletin De Naissance
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#" class="text-gray-500 hover:text-secondaryColor">
-                                        License
+                                        Acte De Naissance
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-gray-500 hover:text-secondaryColor">
+                                        Certificat De Deces
                                     </a>
                                 </li>
                             </ul>
