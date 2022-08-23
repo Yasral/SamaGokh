@@ -18,6 +18,8 @@
         <x-news-card/>
 
         <x-event-timeline/>
+
+        <x-collaborator/>
         
         {{-- This gonna be the main content area --}}
 
