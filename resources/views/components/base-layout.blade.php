@@ -20,6 +20,8 @@
         <x-event-timeline/>
 
         <x-collaborator/>
+
+        <x-testimonial/>
         
         {{-- This gonna be the main content area --}}
 
