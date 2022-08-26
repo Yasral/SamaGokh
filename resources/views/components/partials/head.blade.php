@@ -29,4 +29,6 @@
 
 @vite('resources/css/app.css')
 
+@vite('resources/css/style.css')
+
 <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.2/dist/flowbite.min.css" />

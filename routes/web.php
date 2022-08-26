@@ -24,6 +24,6 @@ Route::get('/', function(){
 
     Debugbar::info('Yes guys!');
 
-    return view('default.home');
+    return view('default.login');
 
 });
