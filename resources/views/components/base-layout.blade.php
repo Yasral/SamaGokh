@@ -27,10 +27,9 @@
 
         <x-partials.footer/>
 
-        {{-- Flowbite script using the cdn --}}
-        <script src="https://unpkg.com/flowbite@1.5.2/dist/flowbite.js"></script>
-
-        {{-- <script src="../node_modules/flowbite/dist/flowbite.js"></script> --}}
+        
+        <x-partials.script/>
+        
 
 
     </body>
